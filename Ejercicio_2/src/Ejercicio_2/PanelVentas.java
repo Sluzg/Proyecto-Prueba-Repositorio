@@ -84,17 +84,20 @@ public class PanelVentas extends JPanel {
 			
 			public void actionPerformed(ActionEvent e) {
 				
-			
+			// Declaración de variables
+				
 				float valor1 = 0;
 				float valor2 = 0;
 				float valor3 = 0;
 				float Suma = 0;
+		
 				
 				valor1 = Integer.parseInt(tfValor1.getText());
 				valor2 = Integer.parseInt(tfValor2.getText());
 				valor3 = Integer.parseInt(tfValor3.getText());
-				
+								
 				Suma=valor1+valor2+valor3;
+				
 				
 				tfCalcularVentas.setText(String.valueOf(Suma));
 		
