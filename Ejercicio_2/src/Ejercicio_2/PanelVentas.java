@@ -84,7 +84,7 @@ public class PanelVentas extends JPanel {
 			
 			public void actionPerformed(ActionEvent e) {
 				
-			// Declaración de variables
+			// DeclaraciÃ³n de variables
 				
 				float valor1 = 0;
 				float valor2 = 0;
@@ -103,7 +103,9 @@ public class PanelVentas extends JPanel {
 		
 			}
 		});
-				
+			
+		// Calculo de las ventas totales 
+		
 		add(btnCalcularVentas);
 		
 		tfCalcularVentas = new JTextField();
